@@ -1,6 +1,7 @@
-
-
 print("ola mundo")
+
+def minha_funcao():
+    print("minha função")
 
 #snake_case -> minha_variavel - usado em variaveis
 #camelCase -> minhaVariavel - considerado errado em python
