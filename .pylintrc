@@ -7,6 +7,7 @@ disable =
       W0703, #general-exception
       C0209, #consider-using-f-string
       E0015, #unrecognized-option
+      C0321, #multiple-statements
 
 
 # Analyse import fallback blocks. This can be used to support both Python 2 and
