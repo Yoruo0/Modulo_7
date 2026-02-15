@@ -42,6 +42,7 @@ Pygments==2.19.2
 pylint==4.0.4
 PyMySQL==1.1.1
 pytest==9.0.2
+pytest-mock==3.15.1
 python-engineio==4.12.2
 python-socketio==5.13.0
 PyYAML==6.0.3
