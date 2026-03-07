@@ -20,7 +20,7 @@ class PetListerController(PetListerControllerInterface):
     def __format_response(self, pets: List[PetsTable]) -> Dict:
         formated_pets = []
         for pet in pets:
-            formated_pets.append({"name": pet.name, "id": pet.id})
+            formated_pets.append({"name": pet.name, "id": pet.id, "type": pet.type})
 
         return {
             "data":{
