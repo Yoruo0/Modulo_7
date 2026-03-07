@@ -14,7 +14,7 @@ class TestPersonCreatorView(unittest.TestCase):
 
         view = PersonCreatorView(mock_controller)
 
-        request_body = {"name": "John Doe", "age": 30}
+        request_body = {"first_name":"John","last_name":"Doe", "age": 30, "pet_id":7}
         request = HttpRequest(body=request_body)
 
         response = view.handle(request)

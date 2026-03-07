@@ -1,3 +1,4 @@
+annotated-types==0.7.0
 astroid==4.0.3
 bcrypt==4.3.0
 bidict==0.23.1
@@ -38,6 +39,8 @@ platformdirs==4.3.8
 pluggy==1.6.0
 pre_commit==4.5.1
 pycparser==2.22
+pydantic==2.12.5
+pydantic_core==2.41.5
 Pygments==2.19.2
 pylint==4.0.4
 PyMySQL==1.1.1
@@ -51,6 +54,7 @@ requests==2.32.4
 simple-websocket==1.1.0
 SQLAlchemy==2.0.41
 tomlkit==0.14.0
+typing-inspection==0.4.2
 typing_extensions==4.14.1
 urllib3==2.5.0
 virtualenv==20.33.1
